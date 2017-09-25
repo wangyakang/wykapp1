@@ -9,6 +9,11 @@ import 'mint-ui/lib/style.css'
 Vue.use(Mint)
 Vue.config.productionTip = false
 
+
+//使用zepto
+import Zepto from "zepto"
+
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

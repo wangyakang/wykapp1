@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <button v-on:click='ToPage'></button>
   </div>
 </template>
 
@@ -12,8 +13,10 @@ export default {
       msg: 'Welcome to Your Vue.js App'
     }
   },
-  method (){
-
+  method :{
+    ToPage:function(event){
+       var el = event.currentTarget;
+    }
   }
 }
 </script>

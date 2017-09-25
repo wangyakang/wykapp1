@@ -7,7 +7,7 @@ Vue.use(Router)
 import Home from '@/components/Home'
 import ParentPage from '@/components/ParentPage'
 //审批流程子页面
-import PendingApprova from '@/components/Approval/PendingApprova'
+import PendingApprova from '@/components/Approval/PendingApproval'
 
 
 
@@ -21,5 +21,6 @@ export default new Router({
       name: 'Home',
       component: Home
     },
+
   ]
 })
