@@ -1,0 +1,147 @@
+/*字体图标*/
+@font-face {
+  font-family: 'iconfont';  /* project id 427770 */
+  src: url('https://at.alicdn.com/t/font_427770_ymz3n1x9iugcik9.eot');
+  src: url('https://at.alicdn.com/t/font_427770_ymz3n1x9iugcik9.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_427770_ymz3n1x9iugcik9.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_427770_ymz3n1x9iugcik9.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_427770_ymz3n1x9iugcik9.svg#iconfont') format('svg');
+}
+.icon-setting{
+  font-family: 'iconfont';
+  height: 100%;width: 100%;
+  line-height: 8rem;
+  text-align: center;
+  font-size: 4rem;
+  color: rgb(45,188,242);
+}
+.icon-setting:before{
+  content: '\e626';
+  display: inline-block;
+}
+
+.icon-message{
+  color: rgb(45,188,242);
+  font-family: 'iconfont';
+  height: 100%;width: 100%;
+  line-height: 8rem;
+  text-align: center;
+  font-size: 4rem;
+}
+.icon-message:before{
+  content: '\e612';
+  display: inline-block;
+}
+
+.icon-work{
+  font-family: 'iconfont';
+  line-height: 5rem;
+  text-align: center;
+  font-size: 4rem;
+}
+.icon-work:before{
+  content: '\e612';
+  display: inline-block;
+}
+.icon-my{
+  font-family: 'iconfont';
+  line-height: 5rem;
+  text-align: center;
+  font-size: 4rem;
+}
+.icon-my:before{
+  content: '\e627';
+  display: inline-block;
+}
+/*字体大小*/
+.fontsizeS{
+  font-size: 2rem;
+}
+/*头部样式*/
+.header-style{
+  background: #fff;
+  height:8rem;
+}
+.nav-left{
+  float: left;
+  height: 100%;
+  padding-left: 4rem;
+  line-height: 10rem;
+}
+.nav-right{
+  float: right;
+  width: 18rem;
+  height: 8rem;
+}
+.nav-right .icon-box{
+  float: left;
+  width: 8rem;
+  border-left:1px solid rgb(212,212,212);
+}
+.nav-left span{
+  font-size: 6rem;
+}
+/*banner样式*/
+.banner-box{
+  width: 100vw;
+  height: 37em;
+}
+.banner-back:nth-child(1){
+  background-image: url("../../static/img/1.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+.banner-back:nth-child(2){
+  background-image: url("../../static/img/1.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+/*mannage*/
+.mannage-box{
+  background: #fff;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  height:12rem;
+  align-items:center;
+  //background: red;
+}
+.go-mannage{
+  height: 6rem;
+  line-height: 6rem;
+  width: 50%;
+  margin: 0 auto;
+  border-right: 1px solid rgb(205,205,205);
+}
+.go-mannage p{
+  float: left;
+  font-size: 3rem;
+  margin: 0 4rem;
+}
+.go-mannage .badge{
+  float: left;
+  width: 6rem;height:6rem;
+  border-radius: 20px;
+  border: 2px solid rgb(204,204,204);
+  text-align: center;
+  font-size: 3rem;
+}
+.interval{
+  height: 7.4rem;
+  width: 100vw;
+  background:rgb(228,228,228) ;
+}
+.application{
+  background: #fff;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-items:center;
+}
+.application p{
+  font-size: 3rem;
+}
+/*footer*/
+.footer{
+  height: 10rem;
+}

@@ -7,11 +7,11 @@ import Mint from 'mint-ui'
 import 'mint-ui/lib/style.css'
 // 使用 mint-ui
 Vue.use(Mint)
+
 Vue.config.productionTip = false
 
 
-//使用zepto
-import Zepto from "zepto"
+
 
 
 /* eslint-disable no-new */

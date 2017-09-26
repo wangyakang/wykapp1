@@ -89,6 +89,12 @@ var webpackConfig = merge(baseWebpackConfig, {
       name: 'manifest',
       chunks: ['vendor']
     }),
+    //引入zepto
+    new webpack.ProvidePlugin({
+      $: "webpack-zepto",
+      Zepto: "webpack-zepto",
+      "window.Zepto": "webpack-zepto"
+    }),
     // copy custom static assets
     new CopyWebpackPlugin([
       {

@@ -4,10 +4,10 @@ Vue.use(Router)
 
 
 //引入页面
-import Home from '@/components/Home'
-import ParentPage from '@/components/ParentPage'
+import Home from '@/components/home'
+import ParentPage from '@/components/parentPage'
 //审批流程子页面
-import PendingApprova from '@/components/Approval/PendingApproval'
+import PendingApproval from '@/components/approval/pendingApproval'
 
 
 
@@ -21,6 +21,16 @@ export default new Router({
       name: 'Home',
       component: Home
     },
+    {
+      path:'/Approval',
+      component:ParentPage,
+      children:[
+        {
+          path:'/',
+          component:PendingApproval,
+        }
+      ]
+    }
 
   ]
 })
