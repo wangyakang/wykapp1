@@ -1,0 +1,27 @@
+/*icon*/
+.icon-punchClock{
+  font-size: 4rem;
+  font-family: 'iconfont';
+}
+.icon-punchClock:before{
+  content: '\e620';
+  display: inline-block;
+}
+.icon-statistics{
+  font-size: 4rem;
+  font-family: 'iconfont';
+}
+.icon-statistics:before{
+  content: '\e666';
+  display: inline-block;
+}
+
+/*body*/
+/*footer*/
+.box-icon{
+  height: 8rem;
+  line-height: 4rem;
+}
+span.tj{
+  line-height: 4rem;
+}

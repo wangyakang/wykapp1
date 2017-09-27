@@ -1,11 +1,11 @@
 /*字体图标*/
 @font-face {
   font-family: 'iconfont';  /* project id 427770 */
-  src: url('https://at.alicdn.com/t/font_427770_ymz3n1x9iugcik9.eot');
-  src: url('https://at.alicdn.com/t/font_427770_ymz3n1x9iugcik9.eot?#iefix') format('embedded-opentype'),
-  url('https://at.alicdn.com/t/font_427770_ymz3n1x9iugcik9.woff') format('woff'),
-  url('https://at.alicdn.com/t/font_427770_ymz3n1x9iugcik9.ttf') format('truetype'),
-  url('https://at.alicdn.com/t/font_427770_ymz3n1x9iugcik9.svg#iconfont') format('svg');
+  src: url('https://at.alicdn.com/t/font_427770_08f1tznuz1zia4i.eot');
+  src: url('https://at.alicdn.com/t/font_427770_08f1tznuz1zia4i.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_427770_08f1tznuz1zia4i.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_427770_08f1tznuz1zia4i.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_427770_08f1tznuz1zia4i.svg#iconfont') format('svg');
 }
 .icon-setting{
   font-family: 'iconfont';
@@ -53,6 +53,35 @@
   content: '\e627';
   display: inline-block;
 }
+.icon-attendance{
+  font-size: 4rem;
+}
+.icon-attendance:before{
+  content: '\e620';
+  display: inline-block;
+}
+.icon-journal{
+  font-size: 6rem;
+}
+.icon-journal:before{
+  content: '\e66a';
+  display: inline-block;
+}
+.icon-cc{
+  font-size: 5rem;
+  font-weight: bolder
+}
+.icon-cc:before{
+  content: '\e67a';
+  display: inline-block;
+}
+.icon-process{
+  font-size: 5rem;
+}
+.icon-process:before{
+  content: '\e665';
+  display: inline-block;
+}
 /*字体大小*/
 .fontsizeS{
   font-size: 2rem;
@@ -61,6 +90,7 @@
 .header-style{
   background: #fff;
   height:8rem;
+  border-bottom: 1px solid rgb(212,212,212);
 }
 .nav-left{
   float: left;
@@ -127,7 +157,7 @@
   font-size: 3rem;
 }
 .interval{
-  height: 7.4rem;
+  height: 5rem;
   width: 100vw;
   background:rgb(228,228,228) ;
 }
@@ -138,8 +168,45 @@
   justify-content: space-between;
   align-items:center;
 }
-.application p{
+.go-application{
+  height: 12rem;
+
+  width: 50vw;
+  margin: 0 auto;
+  border-right: 1px solid rgb(205,205,205);
+  border-bottom: 1px solid rgb(205,205,205);
+}
+.go-application p{
+  float: left;
+  margin: 0 4rem;
   font-size: 3rem;
+  line-height: 12rem;
+}
+.go-application .badge{
+  float: left;
+  width: 7rem;height:7rem;
+  border-radius: 20px;
+  border: 2px solid rgb(204,204,204);
+  text-align: center;
+  margin-top: 3rem;
+  line-height: 7rem;
+  font-family: 'iconfont';
+  color: #fff;
+}
+.icon-attendance,.icon-journal{
+  background: rgb(77,169,234);
+}
+.icon-cc,.icon-process{
+  background: rgb(247,181,94);
+}
+.font-application{
+  text-align: left;
+  padding-left: 3rem;
+  font-size: 4rem;
+  width: 100vw;
+  height:7rem;
+  line-height: 7rem;
+  border-bottom: 1px solid rgb(205,205,205);
 }
 /*footer*/
 .footer{

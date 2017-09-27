@@ -25,25 +25,33 @@
         </div>
         <!--mannage-->
         <div class="mannage-box">
-          <div class="go-mannage">
+          <div class="go-mannage" data-page="approval" >
             <p>待我审批</p>
             <div class="badge">22</div>
           </div>
-          <div class="go-mannage">
+          <div class="go-mannage" data-page="attendance" v-on:click="toPage">
             <p>出勤天数</p>
             <div class="badge">22</div>
           </div>
         </div>
         <div class="interval"></div>
         <div class="application">
-          <p>应用</p>
-          <div class="go-mannage">
-            <p>待我审批</p>
-            <div class="badge">22</div>
+          <p class="font-application">应用</p>
+          <div class="go-application" data-page="checkAttendance" v-on:click="toPage">
+            <p>考勤打卡</p>
+            <div class="badge icon-attendance"></div>
           </div>
-          <div class="go-mannage">
-            <span>出勤天数</span>
-            <div class="badge">22</div>
+          <div class="go-application" data-page="workLog" v-on:click="toPage">
+            <p>工作日志</p>
+            <div class="badge icon-journal"></div>
+          </div>
+          <div class="go-application" data-page="ccprocess" v-on:click="toPage">
+            <p>抄送流程</p>
+            <div class="badge icon-cc"></div>
+          </div>
+          <div class="go-application" data-page="myProcess" v-on:click="toPage">
+            <p>我的流程</p>
+            <div class="badge icon-process"></div>
           </div>
         </div>
       </mt-tab-container-item>
@@ -63,7 +71,6 @@
         <span class="fontsizeS">我的</span>
       </mt-tab-item>
     </mt-tabbar>
-    <button v-on:click="toPage">点击跳转页面</button>
   </div>
 </template>
 
@@ -73,21 +80,33 @@ export default {
   data () {
     return {
       selected: 'work',
-      active:'work-container'
+      active: 'work-container'
     }
   },
-  watch:{
-    selected:function(value){
-      if(value=='work'){
+  watch: {
+    selected: function (value) {
+      if (value == 'work') {
         this.active = 'work-container';
-      }else if(value == 'my') {
+      } else if (value == 'my') {
         this.active = 'my-container';
       }
     }
   },
-  methods :{
-    toPage:function(event){
-       this.$router.push({path:'/Approval'})
+  methods: {
+    toPage: function (event) {
+      var element = event.currentTarget;
+      var dataPage = $(element).attr('data-page');
+      if (dataPage == 'workLog') {  //工作日志
+        this.$router.push({path: '/workLog'})
+      } else if (dataPage == 'checkAttendance') { //考勤打卡
+        this.$router.push({path: '/checkAttendance?value=1'})
+      } else if (dataPage == 'ccprocess') { //抄送流程
+        this.$router.push({path: '/ccprocess'})
+      }else if (dataPage == 'myProcess') { //我的流程
+        this.$router.push({path: '/myProcess'})
+      }else if (dataPage == 'attendance') { //出勤天数
+        this.$router.push({path: '/checkAttendance?value=2'})
+      }
     }
   }
 }

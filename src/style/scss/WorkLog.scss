@@ -1,0 +1,114 @@
+/*日志主页*/
+/*iconfont*/
+.icon-back{
+  font-size: 4rem;
+  font-family: 'iconfont';
+}
+.icon-back:before{
+  content: '\e637';
+  display: inline-block;
+}
+/*header*/
+.box-wliHeader{
+  width: 100vw;
+  height: 8rem;
+  position: fixed;
+  top:0;left: 0;
+  border-bottom: 1px solid rgb(204,204,204);
+  background: #fff;
+}
+.box-wliHeader .wli-back{
+  position: absolute;
+  left: 2rem;
+  width: 4rem;
+  height: 4rem;
+  top: 4rem;
+  margin-top: -2rem;
+  z-index: 10;
+}
+.box-wliHeader .wli-title{
+  text-align: center;
+  line-height: 8rem;
+  font-size: 4rem;
+  font-weight: bold;
+}
+/*mainbody*/
+.main-body{
+  margin-top: 8rem;
+  background: #efeff4;
+  width: 100vw;
+  height:93rem;
+}
+.logContent{
+  width: 100vw;
+  height: 100%;
+  padding-top: 20px;
+}
+.logContentContent{
+  padding: 30px;
+  height: 23rem;
+  background: #fff;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(204,204,204);
+  border-top: 1px solid rgb(204,204,204);
+}
+.logBoxTitle{
+  height: 45%;
+}
+.headPortrait{
+  float: left;
+  width: 7rem;height:7rem;
+  border-radius: 50%;
+  background: red;
+}
+.logBoxName{
+  margin-left: 2rem;
+  width: 60%;
+  float: left;
+  height: 100%;
+}
+p.logName{
+  font-size: 3rem;
+  color: #000;
+  text-align: left;
+  font-weight: bold;
+}
+p.logTime{
+  color: rgb(153,153,153);
+  font-size: 2.5rem;
+  text-align: left;
+  padding-top:1rem;
+}
+p.logTitle{
+  padding-top: 1rem;
+  font-size: 2.8rem;
+  color: #656b79;
+  text-align: left;
+}
+p.logMainContent{
+  padding-top: 1rem;
+  text-align: left;
+  font-size: 2.6rem;
+  color: rgb(153,153,153);
+}
+/*footer*/
+.wliFooter{
+  width: 100vw;
+  height: 8rem;
+  position: fixed;
+  bottom: 0;left: 0;
+  background: #fff;
+  border-top: 1px solid rgb(204,204,204);
+}
+.wliFooter .myDiary{
+  border-right: 1px solid rgb(204,204,204);
+}
+.wliFooter .myDiary,.wliFooter .writeDiary{
+  width: 50vw;
+  height: 100%;
+  float: left;
+  text-align: center;
+  line-height: 8rem;
+  font-size: 3rem;
+  color: rgb(110,169,243);
+}
