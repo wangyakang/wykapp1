@@ -24,8 +24,8 @@
           </div>
       </div>
       <div class="wliFooter">
-        <div class="myDiary">我的日志</div>
-        <div class="writeDiary">写日志</div>
+        <div class="myDiary" data-page="myDiary" v-on:click="toPage">我的日志</div>
+        <div class="writeDiary" data-page="writeDiary" v-on:click="toPage">写日志</div>
       </div>
   </div>
 </template>
@@ -37,14 +37,16 @@
 
       }
     },
-//    methods:{
-//      toPage: function (event) {
-//        var element = event.currentTarget ;
-//        var dataPage = $(element).attr('data-page');
-//        if(dataPage=='workLog'){
-//          this.$router.push({path:'/workLog'})
-//        }
-//      }
-//    }
+    methods:{
+      toPage: function (event) {
+        var element = event.currentTarget ;
+        var dataPage = $(element).attr('data-page');
+        if(dataPage=='myDiary'){
+          this.$router.push({path:'/myLog'})
+        }else if(dataPage=='writeDiary'){
+            this.$router.push({path:'/writeDiary'})
+        }
+      }
+    }
   }
 </script>

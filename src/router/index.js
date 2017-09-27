@@ -11,7 +11,8 @@ import PendingApproval from '@/components/approval/pendingApproval'
 
 //工作日志
 import workLogIndex from '@/components/workLog/workLogIndex.vue'
-
+import myLog from '@/components/workLog/myLog'
+import writeDiary from '@/components/workLog/writeDiary'
 //考勤打卡
 import checkAttendance from '@/components/checkAttendance/checkAttendance'
 
@@ -27,7 +28,7 @@ export default new Router({
       name: 'Home',
       component: Home
     },
-    {
+    { //考勤
       path:'/Approval',
       component:ParentPage,
       children:[
@@ -37,14 +38,22 @@ export default new Router({
         }
       ]
     },
-    {
+    {  //工作日志
       path:'/workLog',
       component:ParentPage,
       children:[
-        {
-          path:'/',
-          component:workLogIndex,
-        }
+          {
+           path:'/',
+           component:workLogIndex,
+          },
+          {
+            path:'/myLog',
+            component:myLog,
+          },
+          {
+              path:'/writeDiary',
+              component:writeDiary,
+          }
       ]
     },
     {  //考勤打卡
@@ -57,7 +66,7 @@ export default new Router({
         }
       ]
     },
-    {
+    { //抄送流畅
       path:'/ccprocess',
       component:ParentPage,
       children:[
@@ -67,7 +76,7 @@ export default new Router({
         }
       ]
     },
-    {
+    { //我的流程
       path:'/myProcess',
       component:ParentPage,
       children:[
