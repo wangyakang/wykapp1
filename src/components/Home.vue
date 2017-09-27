@@ -37,6 +37,14 @@
         <div class="interval"></div>
         <div class="application">
           <p>应用</p>
+          <div class="go-mannage">
+            <p>待我审批</p>
+            <div class="badge">22</div>
+          </div>
+          <div class="go-mannage">
+            <span>出勤天数</span>
+            <div class="badge">22</div>
+          </div>
         </div>
       </mt-tab-container-item>
       <!--我的信息列表页-->
