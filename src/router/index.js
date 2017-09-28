@@ -13,6 +13,7 @@ import PendingApproval from '@/components/approval/pendingApproval'
 import workLogIndex from '@/components/workLog/workLogIndex.vue'
 import myLog from '@/components/workLog/myLog'
 import writeDiary from '@/components/workLog/writeDiary'
+import editLog from '@/components/workLog/editLog'
 //考勤打卡
 import checkAttendance from '@/components/checkAttendance/checkAttendance'
 
@@ -53,6 +54,10 @@ export default new Router({
           {
               path:'/writeDiary',
               component:writeDiary,
+          },
+          {
+            path:'/editLog',
+            component:editLog,
           }
       ]
     },

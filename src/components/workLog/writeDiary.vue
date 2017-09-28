@@ -7,7 +7,16 @@
             </div>
         </div>
         <div class="main-body">
-
+            <div class="writeDiaryBox">
+              <div class="titleWriteLog">
+                <span>标题:</span>
+                <input type="text" value="请输入日志标题">
+              </div>
+              <div class="contentWriteLog">
+                <span>内容:</span>
+                <textarea name="" id="" cols="30" rows="10">发的</textarea>
+              </div>
+            </div>
         </div>
         <div class="wliFooter">
             <div class="Initiating">发表</div>

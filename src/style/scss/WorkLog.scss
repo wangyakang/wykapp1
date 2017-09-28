@@ -45,8 +45,8 @@
   padding-top: 20px;
 }
 .logContentContent{
-  padding: 30px;
-  height: 23rem;
+  padding: 48px;
+  height: 25rem;
   background: #fff;
   margin-bottom: 20px;
   border-bottom: 1px solid rgb(204,204,204);
@@ -81,14 +81,14 @@ p.logTime{
 }
 p.logTitle{
   padding-top: 1rem;
-  font-size: 2.8rem;
+  font-size: 3.8rem;
   color: #656b79;
   text-align: left;
 }
 p.logMainContent{
   padding-top: 1rem;
   text-align: left;
-  font-size: 2.6rem;
+  font-size: 2.8rem;
   color: rgb(153,153,153);
 }
 /*footer*/
@@ -112,7 +112,99 @@ p.logMainContent{
   font-size: 3rem;
   color: rgb(110,169,243);
 }
-/*mylog*/
+/*我的日志页面*/
+.mylogBox{
+  width: 70%;
+  height: 20rem;
+  background: #fff;
+  float: left;
+  border-radius: 20px;
+  padding: 20px 30px;
+  margin-right:8%;
+}
+.logBoxLeft{
+  float: left;
+  width: 22%;
+  text-align: center;
+}
+.logBoxLeft .logTimeDay{
+  font-size: 6rem;
+  font-weight: bolder;
+  margin-top: 4rem;
+}
+.logBoxLeft .logTimeMouth{
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+.clear{
+ clear: both;
+}
+li.clearboth{
+  margin-top: 4rem;
+  height: 20rem;
+}
+.logUl{
+  height: 100%;
+}
+/*写日志页面*/
 .body-height{
   height: 100%;
+}
+.writeDiaryBox{
+  height: 100%;
+  background: #fff;
+  padding-top: 5rem;
+}
+.titleWriteLog{
+  height: 10rem;
+  border-bottom: 3px solid rgb(245,245,245);
+}
+.titleWriteLog span,.contentWriteLog>span{
+  font-size: 3.8rem;
+  float: left;
+  width: 20vw;
+  line-height: 10rem;
+  padding-left: 3rem;
+  color: #000;
+}
+.titleWriteLog input,.contentWriteLog textarea {
+  float: left;
+  outline: none;
+  width: 80vw;
+  height: 100%;
+  font-size: 3.8rem;
+  color: #656b79;
+  padding: 1rem 5rem;
+}
+.contentWriteLog{
+  height: 90%;
+  position: relative;
+}
+.writeDiaryBox .contentWriteLog textarea{
+  height: 100%;
+  color: #666;
+  padding-top: 3rem;
+  line-height: 5rem;
+}
+.writeDiaryBox .contentWriteLog .lastEdit{
+  position: absolute;
+  font-size: 2rem;
+  color: rgb(187,187,187);
+  height: 2rem;
+  bottom: 4rem;left: 21rem;
+  line-height: 2rem;
+  width: 60vw;
+  text-align: left;
+}
+.writeDiaryBox .contentWriteLog .lastEdit span{
+  font-size: 2.3rem;
+  color: rgb(187,187,187);
+  height: 2rem;
+  line-height: 2rem;
+  text-align: left;
+  padding-left: 1rem;
+}
+.writeDiaryBox .contentWriteLog .lastEdit i{
+  position: absolute;
+  bottom: 0;left: 0;margin-top: -1rem;
 }

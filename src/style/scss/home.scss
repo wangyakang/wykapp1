@@ -1,11 +1,11 @@
 /*字体图标*/
 @font-face {
   font-family: 'iconfont';  /* project id 427770 */
-  src: url('https://at.alicdn.com/t/font_427770_08f1tznuz1zia4i.eot');
-  src: url('https://at.alicdn.com/t/font_427770_08f1tznuz1zia4i.eot?#iefix') format('embedded-opentype'),
-  url('https://at.alicdn.com/t/font_427770_08f1tznuz1zia4i.woff') format('woff'),
-  url('https://at.alicdn.com/t/font_427770_08f1tznuz1zia4i.ttf') format('truetype'),
-  url('https://at.alicdn.com/t/font_427770_08f1tznuz1zia4i.svg#iconfont') format('svg');
+  src: url('https://at.alicdn.com/t/font_427770_1lpyvkwlchiio1or.eot');
+  src: url('https://at.alicdn.com/t/font_427770_1lpyvkwlchiio1or.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_427770_1lpyvkwlchiio1or.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_427770_1lpyvkwlchiio1or.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_427770_1lpyvkwlchiio1or.svg#iconfont') format('svg');
 }
 .icon-setting{
   font-family: 'iconfont';
@@ -80,6 +80,14 @@
 }
 .icon-process:before{
   content: '\e665';
+  display: inline-block;
+}
+.icon-prompt{
+  font-family: 'iconfont';
+  color: red;
+}
+.icon-prompt:before{
+  content: '\e61b';
   display: inline-block;
 }
 /*字体大小*/
