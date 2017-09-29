@@ -7,6 +7,14 @@
       </div>
     </div>
     <div class="main-body">
+      <div class="logBoxTitle" style="height: 10rem;border-bottom: 1px solid rgb(216,216,216);padding-left: 4rem;padding-top: 1rem;position: relative;background: #fff">
+        <div class="headPortrait"></div>
+        <div class="logBoxName">
+          <p class="logName">用户名</p>
+          <p class="logTime">考勤组: <span>考勤</span></p>
+        </div>
+        <div class="selectTime">2017.09.31</div>
+      </div>
       <mt-tab-container v-model="active">
         <!--打卡-->
         <mt-tab-container-item id="punchClock">
