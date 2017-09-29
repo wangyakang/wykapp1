@@ -1,11 +1,11 @@
 /*字体图标*/
 @font-face {
   font-family: 'iconfont';  /* project id 427770 */
-  src: url('https://at.alicdn.com/t/font_427770_1lpyvkwlchiio1or.eot');
-  src: url('https://at.alicdn.com/t/font_427770_1lpyvkwlchiio1or.eot?#iefix') format('embedded-opentype'),
-  url('https://at.alicdn.com/t/font_427770_1lpyvkwlchiio1or.woff') format('woff'),
-  url('https://at.alicdn.com/t/font_427770_1lpyvkwlchiio1or.ttf') format('truetype'),
-  url('https://at.alicdn.com/t/font_427770_1lpyvkwlchiio1or.svg#iconfont') format('svg');
+  src: url('https://at.alicdn.com/t/font_427770_j8qtasfagz1fko6r.eot');
+  src: url('https://at.alicdn.com/t/font_427770_j8qtasfagz1fko6r.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_427770_j8qtasfagz1fko6r.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_427770_j8qtasfagz1fko6r.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_427770_j8qtasfagz1fko6r.svg#iconfont') format('svg');
 }
 .icon-setting{
   font-family: 'iconfont';
@@ -88,6 +88,85 @@
 }
 .icon-prompt:before{
   content: '\e61b';
+  display: inline-block;
+}
+.icon-notification{
+  font-family: 'iconfont';
+  color: blue;
+  font-size: 3rem;
+}
+.icon-notification:before{
+  content: '\e683';
+  display: inline-block;
+}
+.icon-fillCard{
+  font-family: 'iconfont';
+  color: #fff;
+  font-size: 5rem;
+  background: rgb(77,169,235);
+}
+.icon-fillCard:before{
+  content: '\e601';
+  display: inline-block;
+}
+.icon-leave{
+  font-family: 'iconfont';
+  color: #fff;
+  font-size: 4rem;
+  background: rgb(77,169,235);
+}
+.icon-leave:before{
+  content: '\e602';
+  display: inline-block;
+}
+.icon-businessTravel{
+  font-family: 'iconfont';
+  color: #fff;
+  font-size: 5rem;
+  background: rgb(77,169,235);
+}
+.icon-businessTravel:before{
+  content: '\e65a';
+  display: inline-block;
+}
+.icon-out{
+  font-family: 'iconfont';
+  color: #fff;
+  font-size: 5rem;
+  background: rgb(247,181,94);
+}
+.icon-out:before{
+  content: '\e65a';
+  display: inline-block;
+}
+.icon-reimbursement{
+  font-family: 'iconfont';
+  color: #fff;
+  font-size: 4rem;
+  background: rgb(242,114,94);
+}
+.icon-reimbursement:before{
+  content: '\e6fc';
+  display: inline-block;
+}
+.icon-use{
+  font-family: 'iconfont';
+  color: #fff;
+  font-size: 5rem;
+  background: rgb(242,114,94);
+}
+.icon-use:before{
+  content: '\e60d';
+  display: inline-block;
+}
+.icon-userCar{
+  font-family: 'iconfont';
+  color: #fff;
+  font-size: 4rem;
+  background: rgb(247,181,94);
+}
+.icon-userCar:before{
+  content: '\e60c';
   display: inline-block;
 }
 /*字体大小*/

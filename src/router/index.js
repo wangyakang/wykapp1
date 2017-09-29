@@ -19,9 +19,9 @@ import checkAttendance from '@/components/checkAttendance/checkAttendance'
 
 //抄送流程
 import ccprocessIndex from '@/components/ccprocess/ccprocessIndex'
-
 //我的流程
 import myProcessIndex from '@/components/myProcess/myProcessIndex'
+import selectionProcess from '@/components/myProcess/selectionProcess'
 export default new Router({
   routes: [
     {
@@ -88,6 +88,10 @@ export default new Router({
         {
           path:'/',
           component:myProcessIndex,
+        },
+        {
+          path:'/selectionProcess',
+          component:selectionProcess,
         }
       ]
     }

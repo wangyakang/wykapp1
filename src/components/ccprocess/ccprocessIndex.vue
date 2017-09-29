@@ -7,7 +7,24 @@
       </div>
     </div>
     <div class="main-bodyCs">
-
+      <ul>
+        <li class="copyProcessBox">
+          <div class="titleTime">
+            系统消息 <span> 1:22</span>
+          </div>
+          <div class="copyCintent">
+            <p>梦德发起的物品领用申请需要您进行审批</p>
+          </div>
+          <div class="copyPrompt">
+            <div class="icon-notification"></div>
+            <p>流程任务通知</p>
+          </div>
+          <div class="copyOperation">
+            <p>已处理</p>
+          </div>
+        </li>
+        <li class="copyProcessBox"></li>
+      </ul>
     </div>
   </div>
 </template>

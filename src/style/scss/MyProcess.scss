@@ -4,3 +4,50 @@
   font-size: 3rem;
   color: rgb(110,169,241);
 }
+/*选择流程*/
+.box-wliHeader{
+  z-index: 100;
+}
+.main-bodyCs{
+  position: relative;
+}
+.vacationBox{
+  top:12rem;left: 0;
+  position: absolute;
+  background: #fff;
+  width: 100vw;
+}
+.vacationBox .vacationTitle{
+  font-size: 2.5rem;
+  text-align: left;
+  padding: 2rem 3rem;
+}
+.vacationBox .vacationTitle>p{
+  margin: 2px 3px;
+}
+.vacationContentBox{
+  display: flex;
+  flex-wrap:wrap;
+  align-items:center;
+}
+.vacationContent{
+  width: 20rem;
+  height:20rem;
+  padding: 2rem 3rem;
+}
+.logoVacation{
+  width: 8rem;
+  height: 8rem;
+  border-radius: 20px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 8rem;
+}
+.vacationContent>p{
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.vacationBox:nth-child(2){
+  top:65rem;
+}

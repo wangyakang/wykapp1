@@ -10,7 +10,7 @@
 
     </div>
     <div class="wliFooter">
-      <div class="Initiating">发起流程</div>
+      <div class="Initiating" v-on:click="toPage" data-page="selectionProcess">发起流程</div>
     </div>
   </div>
 </template>
@@ -22,14 +22,14 @@
 
       }
     },
-//    methods:{
-//      toPage: function (event) {
-//        var element = event.currentTarget ;
-//        var dataPage = $(element).attr('data-page');
-//        if(dataPage=='workLog'){
-//          this.$router.push({path:'/workLog'})
-//        }
-//      }
-//    }
+    methods:{
+      toPage: function (event) {
+        var element = event.currentTarget ;
+        var dataPage = $(element).attr('data-page');
+        if(dataPage=='selectionProcess'){
+          this.$router.push({path:'/selectionProcess'})
+        }
+      }
+    }
   }
 </script>

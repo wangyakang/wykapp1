@@ -1,4 +1,64 @@
+/*抄送流程*/
 .main-bodyCs{
   height: 100vh;
   background: rgb(239,239,244);
+}
+.main-bodyCs>ul{
+  padding-top: 10rem;
+}
+.copyProcessBox{
+  width:80%;
+  height: 28rem;
+  margin:  0 auto;
+  background: rgb(253,251,232);
+  margin-top: 5rem;
+  padding: 2.5rem;
+}
+.copyProcessBox .titleTime{
+  color:rgb(102,102,102);
+  font-size: 2rem;
+  text-align: left;
+}
+.copyProcessBox .titleTime>span{
+  padding-left: 2rem;
+}
+.copyCintent{
+  margin-top: 2rem;
+}
+.copyCintent>p{
+  color: rgb(51,51,51);
+  font-size: 2.7rem;
+  text-align: left;
+  line-height: 4rem;
+}
+.copyPrompt{
+  margin-top: 2rem;
+  height:5rem;
+}
+.copyPrompt>p{
+  color: rgb(51,51,51);
+  font-size: 2.5rem;
+  text-align: left;
+  float: left;
+  line-height: 5rem;
+  margin-left: 3rem;
+}
+.copyPrompt>p:after{
+  clear: both;
+}
+div.icon-notification{
+  width: 5rem;height: 5rem;
+  border-radius: 20px;
+  background: rgb(247,181,94);
+  float: left;
+  text-align: center;
+  line-height: 5rem;
+}
+.copyOperation{
+  text-align: center;
+  font-size: 2.5rem;
+  color: rgb(78,182,250);
+  border-top: 2px dashed rgb(204,204,204);
+  line-height: 4rem;
+  margin-top: 1.6rem;
 }
