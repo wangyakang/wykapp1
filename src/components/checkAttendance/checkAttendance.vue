@@ -18,11 +18,58 @@
       <mt-tab-container v-model="active">
         <!--打卡-->
         <mt-tab-container-item id="punchClock">
-            打卡
+            <div class="clockBox">
+              <div class="clockTitle">
+                <p>一日之计在于晨</p>
+              </div>
+              <div class="clockBoxa">
+                <div class="clockOn">
+                  <div class="clockContentTitle">
+                    <p>上午:8:00:00(上班时间 8:00:00)</p>
+                  </div>
+                  <div class="clockDakaBox">
+                    <div class="clockDaka">
+                      <h2>9:00:23</h2>
+                      <h3>更新打卡</h3>
+                    </div>
+                    <p>当前位置:萧山区大成名座</p>
+                  </div>
+                </div>
+              </div>
+            </div>
         </mt-tab-container-item>
         <!--统计-->
         <mt-tab-container-item id="statistics">
-            统计
+          <ul class="statistics">
+            <li class="statis">
+              <p>出勤天数:</p>
+              <p>2天</p>
+            </li>
+            <li class="statis">
+              <p>出勤天数:</p>
+              <p>2天</p>
+            </li>
+            <li class="statis">
+              <p>出勤天数:</p>
+              <p>2天</p>
+            </li>
+            <li class="statis">
+              <p>出勤天数:</p>
+              <p>2天</p>
+            </li>
+            <li class="statis">
+              <p>出勤天数:</p>
+              <p>2天</p>
+            </li>
+            <li class="statis">
+              <p>出勤天数:</p>
+              <p>2天</p>
+            </li>
+            <li class="statis">
+              <p>出勤天数:</p>
+              <p>2天</p>
+            </li>
+          </ul>
         </mt-tab-container-item>
       </mt-tab-container>
     </div>

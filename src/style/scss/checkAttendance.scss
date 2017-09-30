@@ -38,3 +38,70 @@ span.tj{
   font-size: 2.5rem;
   line-height: 6rem;
 }
+.clockBox{
+  background: #fff;
+}
+.clockBox .clockTitle{
+  border: 1px solid rgb(216, 216, 216);
+  height: 8rem;width: 100vw;
+  padding-left: 4rem;
+  text-align: left;
+  font-size: 3rem;
+  line-height: 8rem;
+}
+.clockBoxa{
+  position: relative;
+  background: rgb(241,247,255);
+}
+.clockOn{
+
+}
+.clockContentTitle{
+  height: 8rem;
+  padding-left: 4rem;
+  text-align: left;
+  font-size: 3rem;
+  line-height: 8rem;
+  color: #000;
+}
+.clockDaka{
+  width: 80%;
+  margin: 0 auto;
+  padding:50px 20px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 3px solid #d4e4fd;
+  background: #5e97f6;
+  border-radius: 20px;
+}
+.clockDaka>h2,.clockDaka>h3{
+  font-size: 1.5em;
+  line-height: 1em;
+  color: #fff;
+  padding: 20px 0;
+  font-size: 4rem;
+}
+.clockDakaBox>p{
+  font-size: 2.5rem;
+  line-height: 1em;
+  text-align: center;
+  padding: 30px 0 ;
+}
+.statistics{
+  font-size: 3rem;
+  text-align: left;
+  padding: 2rem 2rem;
+  height: 100%;
+  background: #fff;
+}
+ul.statistics .statis{
+  border-bottom: 1px solid rgb(217,217,217);
+  height: 8rem;
+  line-height: 8rem;
+}
+ul.statistics .statis>p:nth-child(1){
+  float: left;
+}
+ul.statistics .statis>p:nth-child(2){
+  float: right;
+}
